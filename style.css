@@ -1,0 +1,168 @@
+/* --- GLOBAL STYLES (Don't touch these) --- */
+* { box-sizing: border-box; margin: 0; padding: 0; font-family: sans-serif; }
+body { padding: 20px; background-color: #f4f4f4; }
+h1 { text-align: center; margin-bottom: 30px; color: #333; }
+section { margin-bottom: 40px; background-color: #ddd; border: 2px solid #bbb; width: 100%; }
+
+/* Common styles for boxes */
+.item {
+    background-color: #e67e22; /* Different color for Grid */
+    color: white;
+    padding: 20px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border: 1px solid rgba(255,255,255,0.3);
+    text-align: center;
+}
+
+/* --------------------------------------------------------- */
+/* ---------------- YOUR TASKS START HERE ------------------ */
+/* --------------------------------------------------------- */
+
+
+/* LEVEL 1: Columns
+   Task:
+   1. Turn on Grid.
+   2. Create 3 equal columns (e.g. 100px 100px 100px or auto).
+*/
+.level-1 {
+    min-height: 100px;
+    /* CODE HERE: */
+
+}
+
+
+/* LEVEL 2: Rows
+   Task:
+   1. Turn on Grid.
+   2. Define 2 rows: first one 50px, second one 100px.
+*/
+.level-2 {
+    /* CODE HERE: */
+
+}
+
+
+/* LEVEL 3: The fr Unit
+   Task:
+   1. Turn on Grid.
+   2. Create 3 columns:
+      - 1st: 1fr
+      - 2nd: 2fr
+      - 3rd: 1fr
+*/
+.level-3 {
+    min-height: 100px;
+    /* CODE HERE: */
+
+}
+
+
+/* LEVEL 4: Repeat
+   Task:
+   1. Turn on Grid.
+   2. Use repeat() to create 4 equal columns of 1fr each.
+*/
+.level-4 {
+    min-height: 100px;
+    /* CODE HERE: */
+
+}
+
+
+/* LEVEL 5: Gaps
+   Task:
+   1. Turn on Grid.
+   2. Create 2 columns (1fr 1fr).
+   3. Add a 20px GAP between columns and rows.
+*/
+.level-5 {
+    min-height: 100px;
+    /* CODE HERE: */
+
+}
+
+
+/* LEVEL 6: Spanning Columns
+   Task:
+   1. Turn on Grid (3 columns 1fr each).
+   2. Make the item with class '.span-col' span across 3 columns.
+*/
+.level-6 {
+    /* Setup grid for container (Do not change) */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+}
+
+.level-6 .span-col {
+    background-color: #8e44ad;
+    /* CODE HERE: */
+
+}
+
+
+/* LEVEL 7: Spanning Rows
+   Task:
+   1. Turn on Grid (3 columns).
+   2. Make the item with class '.span-row' span across 2 rows.
+*/
+.level-7 {
+    /* Setup grid (Do not change) */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+}
+
+.level-7 .span-row {
+    background-color: #2980b9;
+    /* CODE HERE: */
+
+}
+
+
+/* LEVEL 8: Grid Areas
+   Task:
+   1. Turn on Grid.
+   2. Define template areas:
+      "header header"
+      "sidebar content"
+      "footer footer"
+   3. (Items are already assigned to areas below, just set the container).
+*/
+.level-8 {
+    min-height: 300px;
+    /* CODE HERE (Container): */
+
+}
+
+/* Setup for items (Do not change) */
+.header { grid-area: header; background-color: #c0392b; }
+.sidebar { grid-area: sidebar; background-color: #f39c12; }
+.content { grid-area: content; background-color: #27ae60; }
+.footer { grid-area: footer; background-color: #7f8c8d; }
+
+
+/* LEVEL 9: Alignment
+   Task:
+   1. Turn on Grid.
+   2. Center the item horizontally (justify-items).
+   3. Center the item vertically (align-items).
+*/
+.level-9 {
+    height: 200px;
+    /* CODE HERE: */
+
+}
+
+
+/* LEVEL 10: Responsive Auto-Fit
+   Task:
+   1. Turn on Grid.
+   2. Create responsive columns using:
+      repeat(auto-fit, minmax(100px, 1fr))
+*/
+.level-10 {
+    /* CODE HERE: */
+
+}
